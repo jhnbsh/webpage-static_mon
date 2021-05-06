@@ -4,17 +4,15 @@
 This python program is designed to be used as a cron job that monitors a webpage and alerts the user when that page has been updated.  The input is a URL the user defines in the program and the output is a printed message if the webpage has changed. 
 
 # Why is this program needed?:
-There are a number of instances for when a user may want to know when a webpage has been updqted.  The user is waiting for an announcement, a price change, or content to become available.  Rather than manually check the website this program can be used to automate the process.  This program was specifially designed to be used a cron job, on an existing webserver, using minimal python libraries.
+There are a number of instances for when a user may want to know when a webpage has been updated.  The user is waiting for an announcement, a price change, or content to become available.  Rather than manually check the website this program can be used to automate the process.  This program was specifially designed to be used a cron job on an existing webserver using minimal python libraries.
 
 # References:
-Portions of this program were borrowed from Paul Bitutsky and his blog on a similar project using a 
-Raspbery Pi.  Please visit Paul's  original post or visit his github page to see a more advanced version of this program.
+Portions of this program were borrowed from Paul Bitutsky and his blog on a similar project using a Raspbery Pi.  Please visit Paul's  original post or visit his github page to see a more advanced version of this program. Links are below.
 https://medium.com/swlh/tutorial-creating-a-webpage-monitor-using-python-and-running-it-on-a-raspberry-pi-df763c142dac
-
 https://github.com/pbitutsky/webmonitor
 
 # Disclaimer:
-Please do not abuse this program or website owners by overarlly monitoring webpages.  Each monitor request does consume resources of the website owner.  Please be considerate.
+Please do not abuse this program by overarlly monitoring webpages.  Each monitor request does consume resources of the website owner.  Please be considerate.
 
 # Prerequisites:
    Python v2 is needed to execute the program.  The following provides basic directions
@@ -34,7 +32,6 @@ Please do not abuse this program or website owners by overarlly monitoring webpa
 
     URL_TO_MONITOR = "https://www.example.com/page"
  
-
   Run wegpage_mon from a command prompt or terminal window with:
   
     python webpage_mon.py

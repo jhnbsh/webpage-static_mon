@@ -41,7 +41,7 @@ Please do not abuse this program by overarlly monitoring webpages.  Each monitor
   If you would like the program to run on a schedule it can be added as a cron job as initially designed.
   
 # Latest Updates
-* Added option to append text to the end of each item in the wordlist (ex: .txt).
+* v1.0.
 
 # Planned Updates:
 * Python v3 support.

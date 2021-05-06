@@ -8,8 +8,10 @@ There are a number of instances for when a user may want to know when a webpage 
 
 # References:
 Portions of this program were borrowed from Paul Bitutsky and his blog on a similar project using a Raspbery Pi.  Please visit Paul's  original post or visit his github page to see a more advanced version of this program. Links are below.
-https://medium.com/swlh/tutorial-creating-a-webpage-monitor-using-python-and-running-it-on-a-raspberry-pi-df763c142dac
-https://github.com/pbitutsky/webmonitor
+
+Blog: https://medium.com/swlh/tutorial-creating-a-webpage-monitor-using-python-and-running-it-on-a-raspberry-pi-df763c142dac
+
+Github: https://github.com/pbitutsky/webmonitor
 
 # Disclaimer:
 Please do not abuse this program by overarlly monitoring webpages.  Each monitor request does consume resources of the website owner.  Please be considerate.

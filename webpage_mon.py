@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-import difflib, os, re, regex, time, urllib2
+import difflib, os, re, time, urllib2
 
 #Change this to the URL you want to monitor
 URL_TO_MONITOR = "https://www.example.com/page"

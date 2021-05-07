@@ -30,7 +30,7 @@ filehandle.close()
 if processed_response_html == previous_response_html:
     pass #No changes, do nothing.
 else:
-    print("URGENT!", URL_TO_MONITOR, "HAS CHANGED!")
+    print("URGENT! The following website has changed: ", URL_TO_MONITOR)
     filehandle = open(PREVIOUS_CONTENT, 'w')
     filehandle.write(processed_response_html)
     filehandle.close()

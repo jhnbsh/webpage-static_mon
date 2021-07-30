@@ -39,6 +39,9 @@ Please do not abuse this program by overarlly monitoring webpages.  Each monitor
     python webpage_mon.py
    
   If you would like the program to run on a schedule it can be added as a cron job as initially designed.
+
+# Use of Regular Expressions
+  Regular expressions are used to generate search patterns for content which should be ignored when comparing webpages.  For example, there may be a date/time, nonce, or counter which is constantly changing on the webpage thus causing false positives that the webpage has changed.  While Regular Expressions are not the ideal choice to remove such content, it is however the most efficient when using the most minimal python libraries as possible.
   
 # Latest Updates
 * v1.0.

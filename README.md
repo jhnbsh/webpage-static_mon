@@ -1,4 +1,4 @@
-# webpage_mon v1.0 Help File
+# webpage-static_mon v1.0 Help File
 
 # Description:
 This python program is designed to be used as a cron job that monitors a webpage and alerts the user when that page has been updated.  The input is a URL the user defines in the program and the output is a printed message if the webpage has changed. 
